@@ -1,3 +1,85 @@
 body{
 	font-family: 'Roboto', sans-serif;
+
+}
+.navbar-background{
+	height: 70px;
+    background-color: #364d9d;
+}
+.logo-img{
+	height: 70px;
+}
+.header-items{
+	height: 70px;
+}
+.header-items a{
+	padding: 8px 30px;
+	color: white!important;
+	margin: 15px 15px;
+}
+.header-items a:hover{
+	background-color: #ed3338;
+    padding: 8px 30px;
+    border-radius: 5px;
+    height: 40px;
+    margin: 15px 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+
+.wrapper-footer{
+	background-color: #364d9d;
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.footer-linker{
+	color: white;
+    padding: 10px 20px;
+    margin: 20px 25px;
+}
+.footer-linker p{
+	margin: 0px;
+}
+.footer-linker:hover{
+	background-color: #ed3338;
+	padding: 10px 20px;
+    margin: 20px 25px;
+}
+.summery-section{
+	display: flex;
+	justify-content: center;
+}
+.social-icon-section{
+	display: flex;
+	justify-content: center;
+}
+.icon-linker{
+	padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+}
+.icon-linker:hover{
+	padding: 5px 10px;
+    font-size: 20px;
+    color: #ed3338;
+    margin: 0px 10px;
+}
+.copyright-section{
+	display: flex;
+	justify-content: center;
+}
+.copyright-text{
+	padding: 20px;
+    color: white;
+}
+.selected-active{
+	background-color: #ed3338;
+	border-radius: 5px;
 }
