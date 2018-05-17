@@ -83,3 +83,41 @@ body{
 	background-color: #ed3338;
 	border-radius: 5px;
 }
+.custom-sticky-nav{
+	position: -webkit-sticky;
+	position: sticky;
+	top:100px;
+	margin-top: 10px;
+}
+section ul{
+	display: flex;
+	list-style: none;
+}
+section ul li{
+	margin-left: 10px;
+}
+.custom-sticky-nav{
+
+}
+.custom-sticky-nav ul li a{
+	text-decoration: none;
+    font-size: 14px;
+    color: white;
+    height: 45px;
+    cursor: pointer;
+}
+.custom-sticky-nav ul li{
+	padding: 10px 10px;
+    background-color: #ed3338;
+    background: linear-gradient(to right, rgb(238, 51, 56), rgba(157, 54, 111, 0.88));
+    height: 45px;
+    border-radius: 2px
+
+}
+.custom-sticky-nav ul li:hover{
+	padding: 10px 10px;
+    background-color: #364d9d;
+    height: 45px;
+    border-radius: 2px;
+    background: linear-gradient(to right, rgb(86, 68, 189), rgb(213, 4, 251));
+}
