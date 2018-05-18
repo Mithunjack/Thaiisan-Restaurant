@@ -2,6 +2,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="  width=device-width, initial-scale=1,  user-scalable=no"/>
+
     <title>Thaiisan Restaurant</title>
 
     <!--CDN Bootstrap 4 -->
@@ -13,52 +14,69 @@
     <!-- Roboto Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Css File -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
   </head>
 
   <body>
+      
       <!-- Header section -->
       <header class="navbar-section">
-          <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-background pr-0">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" class="logo-img">
+      	<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-background prnd-0">
+      		  <a class="navbar-brand" href="#">
+                <img src="../images/logo.svg" class="logo-img">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse header-items" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto" style="height: 100%">
-                <li class="nav-item active">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Brands</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Products</a>
-                </li>
-                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              
-              </ul>
-            </div>
-          </nav>
+      		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      		    <span class="navbar-toggler-icon"></span>
+      		  </button>
+      		  <div class="collapse navbar-collapse header-items" id="navbarNavDropdown">
+      		    <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../brand.html">Brands</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../products.html">Products</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="../contact.html">Contact</a>
+                  </li>
+                
+                </ul>
+      		  </div>
+    		</nav>
       </header>
 
       <!-- Slider section -->
-      <section style="height: 2000px;">
+      <section style="height: 400px;background-color: yellow;opacity: .5;margin-top: 80px;">
+        <h1>Slider</h1>
       </section>
       
       <!-- sticky nabs -->
-      <section>
-        
+      <section class="custom-sticky-nav">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12 col-sm-12">
+                <ul class="">
+                  <li class=""><a href="#">Dessarts & Snacks</a></li>
+                  <li class=""><a href="misc.html">Misc.</a></li>
+                  <li class=""><a href="beverages.html">Beverages</a></li>
+                  <li><a href="frozen.html">Frozen Food</a></li>
+                  <li><a href="kitchenware.html">Kitchenware</a></li>
+                  <li><a href="canned.html">Canned Food</a></li>
+                  <li><a href="spices.html">Spices & Herbs</a></li>
+                  <li><a href="pasta.html">Pasta & Noodles</a></li>
+                  <li><a href="sauce.html">Sauce</a></li>
+                  <li><a href="cereals.html">Cereals</a></li>
+                </ul>
+            </div>
+        </div>
       </section>
 
-      <!-- Content part -->
-      <section>
-        
+      <!-- Content section -->
+      <section style="height: 1200px;">
       </section>
+
       
       <!-- footer part -->
       <footer>
@@ -91,16 +109,16 @@
                     </div> -->
                     <div class="row justify-content-center">
                       <div class="col-lg-12 col-md-12 col-sm-12 summery-section">
-                        <a href="#"> <div class="float-left footer-linker selected-active">
+                        <a href="../address.html"> <div class="float-left footer-linker">
                           <p>Address</p>
                         </div></a>
-                        <a href="contact.html"> <div class="float-left footer-linker">
+                        <a href="../contact.html"> <div class="float-left footer-linker">
                           <p>Contacts</p>
                         </div></a>
-                        <a href="links.html"> <div class="float-left footer-linker">
+                        <a href="../links.html"> <div class="float-left footer-linker">
                           <p>Links</p>
                         </div></a>
-                        <a href="feedback.html"> <div class="float-left footer-linker">
+                        <a href="../feedback.html"> <div class="float-left footer-linker">
                           <p>Feedback</p>
                         </div></a>
                       </div>
@@ -137,7 +155,7 @@
                     <div class="row ">
                       <div class="col-lg-12 col-md-12 col-sm-12 copyright-section">
                         <div class="copyright-text text-center">
-                          <p>© Copyright 2017 Free Bootstrap Templates - All Rights Reserved</p>
+                          <p>© Copyright 2018 ####### - All Rights Reserved</p>
                         </div>
                       </div>
                     </div>
@@ -149,5 +167,8 @@
         </div>
       </footer>
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>

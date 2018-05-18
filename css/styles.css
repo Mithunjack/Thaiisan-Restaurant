@@ -3,13 +3,11 @@ body{
 
 }
 .navbar-background{
-	height: 70px;
-    background-color: #364d9d;
+    background-color: #21409a;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .logo-img{
-	height: 70px;
-}
-.header-items{
 	height: 70px;
 }
 .header-items a{
@@ -31,7 +29,7 @@ body{
 
 
 .wrapper-footer{
-	background-color: #364d9d;
+	background-color: #21409a;
 }
 
 
@@ -116,7 +114,7 @@ section ul li{
 }
 .custom-sticky-nav ul li:hover{
 	padding: 10px 10px;
-    background-color: #364d9d;
+    background-color: #21409a;
     height: 45px;
     border-radius: 2px;
     background: linear-gradient(to right, rgb(86, 68, 189), rgb(213, 4, 251));
