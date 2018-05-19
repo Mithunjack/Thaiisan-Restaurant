@@ -119,3 +119,9 @@ section ul li{
     border-radius: 2px;
     background: linear-gradient(to right, rgb(86, 68, 189), rgb(213, 4, 251));
 }
+@media  (min-width: 320px) and (max-width:500px) {
+.footer-linker {
+    padding: 10px 0px;
+    margin: 20px 15px;
+}
+}
