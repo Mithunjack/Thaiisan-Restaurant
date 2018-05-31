@@ -5,6 +5,7 @@ body{
 .navbar-background{
     background-color: #21409a;
     padding-top: 0px;
+    background: linear-gradient(to right, rgb(33, 64, 154), rgb(0, 2, 19));
     padding-bottom: 0px;
 }
 .logo-img{
@@ -84,7 +85,7 @@ body{
 .custom-sticky-nav{
 	position: -webkit-sticky;
 	position: sticky;
-	top:100px;
+	top:80px;
 	margin-top: 10px;
 }
 section ul{
@@ -95,6 +96,11 @@ section ul li{
 	margin-left: 10px;
 }
 .custom-sticky-nav{
+    background-color: rgb(1, 3, 23);
+    height: 85px;
+    margin: 0px;
+    background: linear-gradient(to left, rgb(4, 30, 105), rgb(0, 2, 19));
+    padding-top: 20px;
 
 }
 .custom-sticky-nav ul li a{
@@ -106,18 +112,32 @@ section ul li{
 }
 .custom-sticky-nav ul li{
 	padding: 10px 10px;
-    background-color: #ed3338;
-    background: linear-gradient(to right, rgb(238, 51, 56), rgba(157, 54, 111, 0.88));
+    background-color: rgb(46, 37, 179);
+    /* background: linear-gradient(to right, rgb(238, 51, 56), rgba(157, 54, 111, 0.88)); */
     height: 45px;
-    border-radius: 2px
+    border-radius: 2px;
 
 }
 .custom-sticky-nav ul li:hover{
 	padding: 10px 10px;
-    background-color: #21409a;
+    background-color: #2b52c3;
     height: 45px;
     border-radius: 2px;
-    background: linear-gradient(to right, rgb(86, 68, 189), rgb(213, 4, 251));
+    /* background: linear-gradient(to right, rgb(86, 68, 189), rgb(213, 4, 251)); */
+}
+/*.second-nav-background{
+    position: absolute;
+    background-color: red;
+    height: 300px;
+}*/
+/*slider*/
+.carousel-inner {
+    height: 502px;
+}
+.slider-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 @media  (min-width: 320px) and (max-width:500px) {
 .footer-linker {
