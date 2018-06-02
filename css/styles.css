@@ -8,6 +8,7 @@ body{
     padding-top: 0px;
     background: linear-gradient(to right, rgb(33, 64, 154), rgb(0, 2, 19));
     padding-bottom: 0px;
+    box-shadow: 1px 1px 3px 0px #132662;
 }
 .logo-img{
 	height: 70px;
@@ -93,6 +94,7 @@ body{
     margin: 0px;
     background: linear-gradient(to left, rgb(4, 30, 105), rgb(0, 2, 19));
     padding-top: 20px;
+    box-shadow: 1px 1px 3px 0px #58595f;
 }
 .home-custom-sticky-nav ul li a{
     text-decoration: none;
@@ -127,6 +129,7 @@ body{
     /* background: linear-gradient(to left, rgb(4, 30, 105), rgb(0, 2, 19)); */
     padding-top: 20px;
     z-index: 1;
+    box-shadow: 1px 1px 5px 0px #989797;
 }
 section ul{
 	display: flex;
