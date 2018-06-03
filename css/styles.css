@@ -174,7 +174,7 @@ section ul li{
     background-color: rgba(151, 130, 202, 0.1);
 }
 .selected-nav a{
-    color: red!important;
+    color: #142762!important;
     text-decoration: underline; 
 }
 /*.second-nav-background{
