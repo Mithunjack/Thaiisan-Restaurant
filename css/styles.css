@@ -165,6 +165,18 @@ section ul li{
     transform: scale(1.26);
     transition: .2s ease-in-out;
 }
+.selected-nav{
+    transform: scale(1.20);
+    background-color: rgba(151, 130, 202, 0.1);
+}
+.selected-nav :hover{
+    transform: none;
+    background-color: rgba(151, 130, 202, 0.1);
+}
+.selected-nav a{
+    color: red!important;
+    text-decoration: underline; 
+}
 /*.second-nav-background{
     position: absolute;
     background-color: red;
