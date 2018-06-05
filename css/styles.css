@@ -244,6 +244,28 @@ section ul li{
 .content-body h2{
     color: #172c6f;
 }
+.custom-pagination > ul{
+    display: inline-flex!important;
+}
+.custom-pagination >ul >li{
+    margin-left: 0px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #031c63;
+    border-color: #031c64;
+}
+.page-link {    
+    color: #031c64;
+    border: 1px solid #bbaeef;
+}
+.page-link:hover {
+    color: #031c63;
+    background-color: #ebeff3;
+    border-color: #f4f3ff;
+    border: 1px solid #031c64;
+}
 @media  (min-width: 320px) and (max-width:500px) {
 .footer-linker {
     padding: 10px 0px;
