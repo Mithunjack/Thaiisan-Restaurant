@@ -30,7 +30,11 @@ body{
     padding-left: 2.5rem;
 }
 
-
+.slider-section{
+    height: 502px;
+    width: 100%;
+    margin-top: 80px;
+}
 .wrapper-footer{
 	background: linear-gradient(to left, rgb(4, 30, 105), rgb(0, 2, 19));
 }
@@ -167,14 +171,14 @@ section ul li{
 }
 .selected-nav{
     transform: scale(1.20);
-    background-color: rgba(151, 130, 202, 0.1);
+    background-color: rgb(22, 44, 110);
 }
 .selected-nav :hover{
     transform: none;
     background-color: rgba(151, 130, 202, 0.1);
 }
 .selected-nav a{
-    color: #142762!important;
+    color: #fbfbff!important;
     text-decoration: underline; 
 }
 /*.second-nav-background{
@@ -265,6 +269,31 @@ section ul li{
     background-color: #ebeff3;
     border-color: #f4f3ff;
     border: 1px solid #031c64;
+}
+.contact-info{
+    font-size: 15px;
+    color: #162b6b;
+    padding:0px 30px 0px 0px;
+    margin-bottom: 5px;
+}
+.contact-box{
+    float: left;
+    padding: 10px;
+    text-align: left;
+    background-color: #e3dcff;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 1px 1px #c1bdfb;
+}
+.map-box{
+    padding: 0px 30px;
+}
+.map-box iframe{
+    padding: 15px;
+    box-shadow: 0px 0px 1px 1px #a5a1e2;
+    border-radius: 10px;
+    background: rgba(20, 40, 101, .2);
 }
 @media  (min-width: 320px) and (max-width:500px) {
 .footer-linker {
