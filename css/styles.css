@@ -220,6 +220,7 @@ section ul li{
     border-radius: 5px;
     box-shadow: 0px 0px 1px 1px #c1bdfb;
     margin: 0px 22px 35px;
+    height: 250px;
 }
 .product-box>li p{
     margin: 5px;
@@ -243,8 +244,10 @@ section ul li{
 }
 .product-img{
     width: 190px;
-    height: 170px;
+    height: 190px;
     object-fit: contain;
+    padding: 0 10px;
+    margin-bottom: 20px;
 }
 .brands .product-img{
     width: 170px;
@@ -263,6 +266,7 @@ section ul li{
     box-shadow: 0px 0px 1px 1px #a5a1e2;
     display: flex;
     justify-content: center;
+    height: 230px;
 }
 .home-content-body{
     min-height: 1200px;
@@ -469,6 +473,12 @@ section ul li{
         width: 27%;
         padding: 30px;
         margin: 23px;
+        height: 210px;
+    }
+    .brands .product-img {
+        width: 160px;
+        height: 150px;
+        object-fit: contain;
     }
     .home-custom-sticky-nav ul li {
         margin-bottom: 15px;
@@ -498,6 +508,7 @@ section ul li{
         border-radius: 5px;
         box-shadow: 0px 0px 1px 1px #c1bdfb;
         margin: 0px 0px 15px;
+        height: 210px;
     }
     .product-img {
         width: 170px;
@@ -556,10 +567,11 @@ section ul li{
         box-shadow: 0px 0px 1px 1px #a5a1e2;
         display: flex;
         justify-content: center;
+        height: 160px;
     }
     .brands .product-img {
-        width: 140px;
-        height: 140px;
+        width: 130px;
+        height: 130px;
         object-fit: contain;
     }
     .footer-linker {
@@ -581,9 +593,10 @@ section ul li{
         border-radius: 5px;
         box-shadow: 0px 0px 1px 1px #c1bdfb;
         margin: 0px 0px 35px;
+        height: 210px;
     }
     .product-img {
-        width: 170px;
+        width: 140px;
         height: 160px;
         object-fit: contain;
     }
@@ -615,6 +628,11 @@ section ul li{
         padding: 5px 6px;
         min-height: 35px;
     }
+    .home-custom-sticky-nav ul li:hover {
+        margin-bottom: 15px;
+        padding: 5px 6px;
+        min-height: 35px;
+    }
     .custom-sticky-nav ul {
         padding-left: 0;
     }
@@ -633,6 +651,7 @@ section ul li{
         box-shadow: 0px 0px 1px 1px #a5a1e2;
         display: flex;
         justify-content: center;
+        height: 120px;
     }
     .brands .product-img {
         width: 90px;
