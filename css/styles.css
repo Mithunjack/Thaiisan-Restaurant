@@ -525,10 +525,32 @@ section ul li{
     background-color: #e3dcff;
     box-shadow: 0px 0px 1px 1px #c1bdfb;
 }
-
-
-
-
+.profile-img {
+    height: 200px;
+    width: 200px;
+    margin: 29px 115px 34px;
+    font-size: 215px;
+    color: #700110;
+    border-radius: 50%;
+}
+.form-container {
+    padding: 15%;
+    background-color: white;
+    border-radius: 5px;
+}
+.profile-info {
+    margin: 5px 0px;
+}
+.font-color{
+    color: #162b6b;
+}
+.profile-info p {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.profile-info span {
+    font-weight: 500;
+}
 
 
 
