@@ -516,6 +516,29 @@ section ul li{
     background-color: white!important;
 }
 */
+.login-wrapper{
+    padding: 50px;
+    width: 400px;
+    margin: 10% 35%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #e3dcff;
+    box-shadow: 0px 0px 1px 1px #c1bdfb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media  (min-width: 800px) and (max-width:1200px) {
     .home-custom-sticky-nav ul li {
@@ -538,6 +561,9 @@ section ul li{
     .product-box>li {
         width: 43%;
     }
+    .login-wrapper{
+    margin: 10% 35%;
+}
 }
 @media  (min-width: 850px) and (max-width:1250px) {
     .map-box iframe{
@@ -612,6 +638,9 @@ section ul li{
     .map-box iframe{
         width: 350px;
         height: 350px;
+    }
+     .login-wrapper{
+        margin: 15% 25%;
     }
 
 }
@@ -697,6 +726,10 @@ section ul li{
     }
     .map-box {
         padding: 0px;
+    }
+    .login-wrapper{
+        width: 355px;
+        margin: 25% 3%;
     }
 
 }
@@ -791,6 +824,10 @@ section ul li{
     .map-box iframe{
         width: 250px;
         height: 250px;
+    }
+    .login-wrapper{
+        margin: 40% 8%;
+        width: 300px;
     }
 }
 @media  (min-width: 370px) and (max-width:400px){
