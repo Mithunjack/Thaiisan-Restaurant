@@ -1,5 +1,5 @@
 body{
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: url('../images/back1.jpg');
 
 }
@@ -11,15 +11,15 @@ body{
     box-shadow: 1px 1px 3px 0px #132662;
 }
 .logo-img{
-	height: 70px;
+    height: 70px;
 }
 .header-items a{
-	padding: 8px 30px;
-	color: white!important;
-	margin: 15px 15px;
+    padding: 8px 30px;
+    color: white!important;
+    margin: 15px 15px;
 }
 .header-items a:hover{
-	background-color: #ed3338;
+    background-color: #ed3338;
     padding: 8px 30px;
     border-radius: 5px;
     height: 40px;
@@ -36,7 +36,7 @@ body{
     margin-top: 80px;
 }
 .wrapper-footer{
-	background: linear-gradient(to left, rgb(4, 30, 105), rgb(0, 2, 19));
+    background: linear-gradient(to left, rgb(4, 30, 105), rgb(0, 2, 19));
 }
 
 
@@ -45,48 +45,48 @@ body{
 }
 
 .footer-linker{
-	color: white;
+    color: white;
     padding: 10px 20px;
     margin: 20px 25px;
 }
 .footer-linker p{
-	margin: 0px;
+    margin: 0px;
 }
 .footer-linker:hover{
-	background-color: #ed3338;
-	padding: 10px 20px;
+    background-color: #ed3338;
+    padding: 10px 20px;
     margin: 20px 25px;
 }
 .summery-section{
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .social-icon-section{
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .icon-linker{
-	padding: 5px 20px;
+    padding: 5px 20px;
     font-size: 20px;
     color: white;
 }
 .icon-linker:hover{
-	padding: 5px 10px;
+    padding: 5px 10px;
     font-size: 20px;
     color: #ed3338;
     margin: 0px 10px;
 }
 .copyright-section{
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .copyright-text{
-	padding: 20px;
+    padding: 20px;
     color: white;
 }
 .selected-active{
-	background-color: #ed3338;
-	border-radius: 5px;
+    background-color: #ed3338;
+    border-radius: 5px;
 }
 .home-custom-sticky-nav{
     position: -webkit-sticky;
@@ -142,15 +142,15 @@ section ul li{
     margin-left: 10px;
 }
 .custom-sticky-nav ul{
-	display: inline-block;
-	list-style: none;
+    display: inline-block;
+    list-style: none;
 }
 .home-custom-sticky-nav ul{
     display: inline-block;
     list-style: none;
 }
 .custom-sticky-nav ul li a{
-	text-decoration: none;
+    text-decoration: none;
     font-size: 14px;
     color: #162c6e;
     min-height: 45px;
@@ -167,7 +167,7 @@ section ul li{
 
 }
 .custom-sticky-nav ul li:hover{
-	border-radius: 5px;
+    border-radius: 5px;
     text-decoration: none;
     background: rgb(227, 220, 255);
     transition: .2s ease-in-out;
@@ -201,7 +201,7 @@ section ul li{
 }
 .slider-img{
     width: 100%;
-    height: 100%;
+    height: 540px;
     object-fit: cover;
 }
 .box-wrapper ul{
@@ -221,6 +221,7 @@ section ul li{
     box-shadow: 0px 0px 1px 1px #c1bdfb;
     margin: 0px 22px 35px;
     height: 250px;
+    position: relative;
 }
 .product-box>li p{
     margin: 5px;
@@ -296,6 +297,9 @@ section ul li{
     background-color: #031c63;
     border-color: #031c64;
 }
+.page-item.active .page-link:hover{
+    color: white;
+}
 .page-link {    
     color: #031c64;
     border: 1px solid #bbaeef;
@@ -327,6 +331,7 @@ section ul li{
 }
 .map-box{
     padding: 0px 30px;
+    margin-top: 30px;
 }
 .map-box iframe{
     padding: 5px;
@@ -404,9 +409,114 @@ section ul li{
     box-shadow: 0 0 0 0.2rem rgba(20, 39, 101, .1);
 }
 .map-box iframe{
-    width: 620px;
+    width: 520px;
     height: 350px;
 }
+.add-product-section{
+    padding: 50px 80px;
+}
+.advance-search-section{
+    padding: 50px 80px;
+}
+.admin-btn .submit-btn{
+    margin-right: 30px;
+    margin-top: 0px;
+}
+.upload-section{
+    display: inline-block;
+}
+.admin-page .content-body{
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+}
+.admin-product-grid{
+    padding: 20px 80px;
+}
+.cancel-btn{
+    color: white;
+    background-color: #ed3338;
+}
+.cancel-btn:hover,.cancel-btn:focus{
+    background-color: #ab1115;
+    outline: none;
+    box-shadow: none;
+}
+.contact-custom-form h4{
+    color: #152866;
+}
+.product-id{
+    background-color: #152866;
+    padding: 10px;
+    width: 200px;
+    margin: 20px 0px;
+}
+.product-id h5,.product-id span{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+
+}
+.upload-picture{
+    width: 100%;
+    height: 90%;
+    background-color: rgba(20, 39, 99, 0.49);
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+}
+.upload-picture:hover{
+    opacity: 1;
+}
+.upload-icon{
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    top: 60px;
+    position: absolute;
+    left: 80px;
+}
+.Upload-tag{
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    top: 100px;
+    position: absolute;
+    left: 55px;
+}
+.close-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #ed3338!important;
+    transition: font-size .1s;
+}
+
+.edit-btn{
+    position: absolute;
+    right: 50px;
+    top: 18px;
+    font-size: 23px;
+    cursor: pointer;
+    color: blue;
+    transition: font-size .1s;
+}
+.edit-btn:hover{
+    text-shadow: 0px 0px blue;
+    font-size: 24px;
+
+}
+.close-btn:hover{
+    text-shadow: 0px 0px  #cc1b20!important; 
+    font-size: 26px;
+}
+/*.admin .product-box>li{
+    background-color: white!important;
+}
+*/
+
 @media  (min-width: 800px) and (max-width:1200px) {
     .home-custom-sticky-nav ul li {
         margin-bottom: 10px;
@@ -429,7 +539,14 @@ section ul li{
         width: 43%;
     }
 }
-@media  (min-width: 700px) and (max-width:1000px) {
+@media  (min-width: 850px) and (max-width:1250px) {
+    .map-box iframe{
+    width: 400px!important;
+    height: 350px!important;
+}    
+}
+
+@media  (min-width: 651px) and (max-width:1000px) {
     .footer-linker {
         padding: 10px 0px;
         margin: 20px 15px;
@@ -470,7 +587,7 @@ section ul li{
         width: 165px;
     }
     .brands .product-box>li {
-        width: 27%;
+        width: 26%;
         padding: 30px;
         margin: 23px;
         height: 210px;
@@ -493,7 +610,7 @@ section ul li{
         width: 30%;
     }
     .map-box iframe{
-        width: 650px;
+        width: 350px;
         height: 350px;
     }
 
@@ -682,7 +799,13 @@ section ul li{
         height: 300px;
     }
 }
-@media  (min-width: 410px) and (max-width:500px){
+@media  (min-width: 400px) and (max-width:500px){
+    .map-box iframe{
+        width: 345px;
+        height: 345px;
+    }
+}
+@media  (min-width: 501px) and (max-width:600px){
     .map-box iframe{
         width: 345px;
         height: 345px;
